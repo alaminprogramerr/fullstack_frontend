@@ -28,6 +28,7 @@ import Footer from "components/Footer/Footer.jsx";
 import "assets/css/nucleo-icons.css";
 import "assets/scss/blk-design-system-react.scss?v=1.0.0";
 import "assets/demo/demo.css";
+import { Link } from "react-router-dom";
 
 class RegisterPage extends React.Component {
   state = {
@@ -45,6 +46,9 @@ class RegisterPage extends React.Component {
       this.followCursor
     );
   }
+   loginControler(){
+     window.location.href='/admin'
+   }
   followCursor = event => {
     let posX = event.clientX - window.innerWidth / 2;
     let posY = event.clientY - window.innerWidth / 6;
@@ -90,31 +94,10 @@ class RegisterPage extends React.Component {
                           alt="..."
                           src={require("assets/img/square-purple-1.png")}
                         />
-                        <CardTitle tag="h4">Register</CardTitle>
+                        <CardTitle tag="h4">log in </CardTitle>
                       </CardHeader>
                       <CardBody>
                         <Form className="form">
-                          <InputGroup
-                            className={classnames({
-                              "input-group-focus": this.state.fullNameFocus
-                            })}
-                          >
-                            <InputGroupAddon addonType="prepend">
-                              <InputGroupText>
-                                <i className="tim-icons icon-single-02" />
-                              </InputGroupText>
-                            </InputGroupAddon>
-                            <Input
-                              placeholder="Full Name"
-                              type="text"
-                              onFocus={e =>
-                                this.setState({ fullNameFocus: true })
-                              }
-                              onBlur={e =>
-                                this.setState({ fullNameFocus: false })
-                              }
-                            />
-                          </InputGroup>
                           <InputGroup
                             className={classnames({
                               "input-group-focus": this.state.emailFocus
@@ -127,7 +110,8 @@ class RegisterPage extends React.Component {
                             </InputGroupAddon>
                             <Input
                               placeholder="Email"
-                              type="text"
+                              type="email"
+                              defaultValue="example@gmail.com"
                               onFocus={e => this.setState({ emailFocus: true })}
                               onBlur={e => this.setState({ emailFocus: false })}
                             />
@@ -144,7 +128,7 @@ class RegisterPage extends React.Component {
                             </InputGroupAddon>
                             <Input
                               placeholder="Password"
-                              type="text"
+                              type="password"
                               onFocus={e =>
                                 this.setState({ passwordFocus: true })
                               }
@@ -156,21 +140,14 @@ class RegisterPage extends React.Component {
                           <FormGroup check className="text-left">
                             <Label check>
                               <Input type="checkbox" />
-                              <span className="form-check-sign" />I agree to the{" "}
-                              <a
-                                href="#pablo"
-                                onClick={e => e.preventDefault()}
-                              >
-                                terms and conditions
-                              </a>
-                              .
+                              <span className="form-check-sign" />Remember in  this device {" "}
                             </Label>
                           </FormGroup>
                         </Form>
                       </CardBody>
                       <CardFooter>
-                        <Button className="btn-round" color="primary" size="lg">
-                          Get Started
+                        <Button onClick={this.loginControler} className="btn-round" color="primary" size="lg">
+                              Login
                         </Button>
                       </CardFooter>
                     </Card>

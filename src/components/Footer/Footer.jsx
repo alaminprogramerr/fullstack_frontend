@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* BLK Design System React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
@@ -36,36 +19,21 @@ class Footer extends React.Component {
         <Container>
           <Row>
             <Col md="3">
-              <h1 className="title">BLK•</h1>
+              <h1 className="title">Best Flight</h1>
             </Col>
             <Col md="3">
-              <Nav>
+              {/* <Nav>
                 <NavItem>
                   <NavLink to="/" tag={Link}>
-                    Home
+                    About Us
                   </NavLink>
                 </NavItem>
-                <NavItem>
-                  <NavLink to="/landing-page" tag={Link}>
-                    Landing
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink to="/register-page" tag={Link}>
-                    Register
-                  </NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink to="/profile-page" tag={Link}>
-                    Profile
-                  </NavLink>
-                </NavItem>
-              </Nav>
+              </Nav> */}
             </Col>
             <Col md="3">
-              <Nav>
+              {/* <Nav>
                 <NavItem>
-                  <NavLink href="https://creative-tim.com/contact-us?ref=blkdsr-footer">
+                  <NavLink href="">
                     Contact Us
                   </NavLink>
                 </NavItem>
@@ -84,7 +52,7 @@ class Footer extends React.Component {
                     License
                   </NavLink>
                 </NavItem>
-              </Nav>
+              </Nav> */}
             </Col>
             <Col md="3">
               <h3 className="title">Follow us:</h3>
@@ -92,7 +60,7 @@ class Footer extends React.Component {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple"
                   color="default"
-                  href="https://twitter.com/creativetim"
+                  href="https://twitter.com"
                   id="tooltip622135962"
                   target="_blank"
                 >
@@ -104,7 +72,7 @@ class Footer extends React.Component {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple"
                   color="default"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://www.facebook.com"
                   id="tooltip230450801"
                   target="_blank"
                 >
@@ -116,7 +84,7 @@ class Footer extends React.Component {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple"
                   color="default"
-                  href="https://dribbble.com/creativetim"
+                  href="https://dribbble.com"
                   id="tooltip318450378"
                   target="_blank"
                 >

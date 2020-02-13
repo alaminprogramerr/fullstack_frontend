@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* BLK Design System React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
@@ -93,8 +76,7 @@ class PagesNavbar extends React.Component {
               title="Designed and Coded by Creative Tim"
               tag={Link}
             >
-              <span>BLK• </span>
-              Design System React
+              <span>Best Flight </span>
             </NavbarBrand>
             <button
               aria-expanded={this.state.collapseOpen}
@@ -117,7 +99,7 @@ class PagesNavbar extends React.Component {
               <Row>
                 <Col className="collapse-brand" xs="6">
                   <a href="#pablo" onClick={e => e.preventDefault()}>
-                    BLK•React
+                  BEST FLIGHT
                   </a>
                 </Col>
                 <Col className="collapse-close text-right" xs="6">
@@ -135,7 +117,7 @@ class PagesNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://twitter.com/CreativeTim"
+                  href="https://twitter.com"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Follow us on Twitter"
@@ -147,7 +129,7 @@ class PagesNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://www.facebook.com/CreativeTim"
+                  href="https://www.facebook.com"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Like us on Facebook"
@@ -159,7 +141,7 @@ class PagesNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://www.instagram.com/CreativeTimOfficial"
+                  href="https://www.instagram.com"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Follow us on Instagram"
@@ -170,12 +152,7 @@ class PagesNavbar extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink tag={Link} to="/">
-                  Back to Kit
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/creativetimofficial/blk-design-system-react/issues">
-                  Have an issue?
+                  Back to Home
                 </NavLink>
               </NavItem>
             </Nav>

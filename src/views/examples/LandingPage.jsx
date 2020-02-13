@@ -43,44 +43,42 @@ class LandingPage extends React.Component {
             <img
               alt="..."
               className="path"
-              src={require("assets/img/blob.png")}
+              src={require("assets/img/air.jpg")}
             />
             <img
               alt="..."
               className="path2"
-              src={require("assets/img/path2.png")}
+              src={require("assets/img/air.jpg")}
             />
             <img
               alt="..."
               className="shapes triangle"
-              src={require("assets/img/triunghiuri.png")}
+              src={require("assets/img/air.jpg")}
             />
             <img
               alt="..."
               className="shapes wave"
-              src={require("assets/img/waves.png")}
+              src={require("assets/img/air.jpg")}
             />
             <img
               alt="..."
               className="shapes squares"
-              src={require("assets/img/patrat.png")}
+              src={require("assets/img/air.jpg")}
             />
             <img
               alt="..."
               className="shapes circle"
-              src={require("assets/img/cercuri.png")}
+              src={require("assets/img/air.jpg")}
             />
             <div className="content-center">
               <Row className="row-grid justify-content-between align-items-center text-left">
                 <Col lg="6" md="6">
                   <h1 className="text-white">
-                    We keep your coin <br />
-                    <span className="text-white">secured</span>
+                  Complement your <br />
+                    <span className="text-white">journey</span>
                   </h1>
                   <p className="text-white mb-3">
-                    A wonderful serenity has taken possession of my entire soul,
-                    like these sweet mornings of spring which I enjoy with my
-                    whole heart. I am alone, and feel...
+                    More airport robots are coming to serve you. A Briggo robotic barista serves up specialty coffee drinks from two automated Coffee Haus spots in Austin-Bergstrom
                   </p>
                   <div className="btn-wrapper mb-3">
                     <p className="category text-success d-inline">
@@ -129,7 +127,7 @@ class LandingPage extends React.Component {
                   <img
                     alt="..."
                     className="img-fluid"
-                    src={require("assets/img/etherum.png")}
+                    src={require("assets/img/air.jpg")}
                   />
                 </Col>
               </Row>
@@ -140,7 +138,7 @@ class LandingPage extends React.Component {
               <img
                 alt="..."
                 className="path"
-                src={require("assets/img/path4.png")}
+                src={require("assets/img/air.jpg")}
               />
               <Container>
                 <Row className="row-grid justify-content-between">
@@ -152,14 +150,14 @@ class LandingPage extends React.Component {
                             <Row>
                               <Col md="4" xs="5">
                                 <div className="icon-big text-center icon-warning">
-                                  <i className="tim-icons icon-trophy text-warning" />
+                                  <i className="tim-icons icon-check-2 text-warning" />
                                 </div>
                               </Col>
                               <Col md="8" xs="7">
                                 <div className="numbers">
                                   <CardTitle tag="p">3,237</CardTitle>
                                   <p />
-                                  <p className="card-category">Awards</p>
+                                  <p className="card-category">Flight</p>
                                 </div>
                               </Col>
                             </Row>
@@ -177,9 +175,9 @@ class LandingPage extends React.Component {
                               </Col>
                               <Col md="8" xs="7">
                                 <div className="numbers">
-                                  <CardTitle tag="p">3,653</CardTitle>
+                                  <CardTitle tag="p">Low</CardTitle>
                                   <p />
-                                  <p className="card-category">Commits</p>
+                                  <p className="card-category">Cost</p>
                                 </div>
                               </Col>
                             </Row>
@@ -199,9 +197,9 @@ class LandingPage extends React.Component {
                               </Col>
                               <Col md="8" xs="7">
                                 <div className="numbers">
-                                  <CardTitle tag="p">593</CardTitle>
+                                  <CardTitle tag="p">Greate</CardTitle>
                                   <p />
-                                  <p className="card-category">Presents</p>
+                                  <p className="card-category">Experience</p>
                                 </div>
                               </Col>
                             </Row>
@@ -214,14 +212,14 @@ class LandingPage extends React.Component {
                             <Row>
                               <Col md="4" xs="5">
                                 <div className="icon-big text-center icon-warning">
-                                  <i className="tim-icons icon-credit-card text-success" />
+                                  <i className="tim-icons icon-chat-33 text-success" />
                                 </div>
                               </Col>
                               <Col md="8" xs="7">
                                 <div className="numbers">
-                                  <CardTitle tag="p">10,783</CardTitle>
+                                  <CardTitle tag="p">Good</CardTitle>
                                   <p />
-                                  <p className="card-category">Forks</p>
+                                  <p className="card-category">Communication</p>
                                 </div>
                               </Col>
                             </Row>
@@ -254,7 +252,7 @@ class LandingPage extends React.Component {
                         href="#pablo"
                         onClick={e => e.preventDefault()}
                       >
-                        Show all{" "}
+                        Thanks !
                         <i className="tim-icons icon-minimal-right text-info" />
                       </a>
                     </div>
@@ -267,17 +265,17 @@ class LandingPage extends React.Component {
             <img
               alt="..."
               className="path"
-              src={require("assets/img/path4.png")}
+              src={require("assets/img/air.jpg")}
             />
             <img
               alt="..."
               className="path2"
-              src={require("assets/img/path5.png")}
+              src={require("assets/img/air.jpg")}
             />
             <img
               alt="..."
               className="path3"
-              src={require("assets/img/path2.png")}
+              src={require("assets/img/air.jpg")}
             />
             <Container>
               <Row className="justify-content-center">
@@ -289,7 +287,7 @@ class LandingPage extends React.Component {
                         <div className="icon icon-primary">
                           <i className="tim-icons icon-money-coins" />
                         </div>
-                        <h4 className="info-title">Low Commission</h4>
+                        <h4 className="info-title">Low Cost</h4>
                         <hr className="line-primary" />
                         <p>
                           Divide details about your work into parts. Write a few
@@ -303,7 +301,7 @@ class LandingPage extends React.Component {
                         <div className="icon icon-warning">
                           <i className="tim-icons icon-chart-pie-36" />
                         </div>
-                        <h4 className="info-title">High Incomes</h4>
+                        <h4 className="info-title">Best Services</h4>
                         <hr className="line-warning" />
                         <p>
                           Divide details about your product or agency work into
@@ -317,7 +315,7 @@ class LandingPage extends React.Component {
                         <div className="icon icon-success">
                           <i className="tim-icons icon-single-02" />
                         </div>
-                        <h4 className="info-title">Verified People</h4>
+                        <h4 className="info-title">Greate Experience</h4>
                         <hr className="line-success" />
                         <p>
                           Divide details about your product or agency work into
@@ -335,7 +333,7 @@ class LandingPage extends React.Component {
             <img
               alt="..."
               className="path"
-              src={require("assets/img/path5.png")}
+              src={require("assets/img/air.jpg")}
             />
             <Container>
               <Row className="row-grid justify-content-between">
@@ -343,7 +341,7 @@ class LandingPage extends React.Component {
                   <img
                     alt="..."
                     className="img-fluid floating"
-                    src={require("assets/img/chester-wade.jpg")}
+                    src={require("assets/img/air.jpg")}
                   />
                   <Card className="card-stats bg-danger">
                     <CardBody>
@@ -372,7 +370,7 @@ class LandingPage extends React.Component {
                       <div className="justify-content-center">
                         <div className="numbers">
                           <CardTitle tag="p">10 425</CardTitle>
-                          <p className="card-category text-white">Business</p>
+                          <p className="card-category text-white">Flight</p>
                         </div>
                       </div>
                     </CardBody>
@@ -381,11 +379,8 @@ class LandingPage extends React.Component {
                 <Col md="6">
                   <div className="px-md-5">
                     <hr className="line-success" />
-                    <h3>Awesome features</h3>
-                    <p>
-                      The design system comes with three pre-built pages to help
-                      you get started faster. You can change the text and images
-                      and you're good to go.
+                    <h3>Awesome Quelity</h3>
+                    <p>Monsters at San Diego International Airport The newest group to land a five-month artist residency
                     </p>
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
@@ -394,7 +389,7 @@ class LandingPage extends React.Component {
                             <i className="tim-icons icon-vector" />
                           </div>
                           <div className="ml-3">
-                            <h6>Carefully crafted components</h6>
+                            <h6>Carefully take all thing</h6>
                           </div>
                         </div>
                       </li>
@@ -404,7 +399,7 @@ class LandingPage extends React.Component {
                             <i className="tim-icons icon-tap-02" />
                           </div>
                           <div className="ml-3">
-                            <h6>Amazing page examples</h6>
+                            <h6>Amazing jurny examples</h6>
                           </div>
                         </div>
                       </li>
@@ -428,47 +423,26 @@ class LandingPage extends React.Component {
             <img
               alt="..."
               className="path"
-              src={require("assets/img/path4.png")}
+              src={require("assets/img/air.jpg")}
             />
             <img
               alt="..."
               className="path2"
-              src={require("assets/img/path2.png")}
+              src={require("assets/img/air.jpg")}
             />
-            <Col md="12">
-              <Card className="card-chart card-plain">
-                <CardHeader>
-                  <Row>
-                    <Col className="text-left" sm="6">
-                      <hr className="line-info" />
-                      <h5 className="card-category">Total Investments</h5>
-                      <CardTitle tag="h2">Performance</CardTitle>
-                    </Col>
-                  </Row>
-                </CardHeader>
-                <CardBody>
-                  <div className="chart-area">
-                    <Line
-                      data={bigChartData.data}
-                      options={bigChartData.options}
-                    />
-                  </div>
-                </CardBody>
-              </Card>
-            </Col>
           </section>
           <section className="section section-lg section-coins">
             <img
               alt="..."
               className="path"
-              src={require("assets/img/path3.png")}
+              src={require("assets/img/air.jpg")}
             />
             <Container>
               <Row>
                 <Col md="4">
                   <hr className="line-info" />
                   <h1>
-                    Choose the coin{" "}
+                    Choose the Plan{" "}
                     <span className="text-info">that fits your needs</span>
                   </h1>
                 </Col>
@@ -480,21 +454,21 @@ class LandingPage extends React.Component {
                       <img
                         alt="..."
                         className="img-center img-fluid"
-                        src={require("assets/img/bitcoin.png")}
+                        src={require("assets/img/air.jpg")}
                       />
                     </CardHeader>
                     <CardBody>
                       <Row>
                         <Col className="text-center" md="12">
-                          <h4 className="text-uppercase">Light Coin</h4>
+                          <h4 className="text-uppercase">Light </h4>
                           <span>Plan</span>
                           <hr className="line-primary" />
                         </Col>
                       </Row>
                       <Row>
                         <ListGroup>
-                          <ListGroupItem>50 messages</ListGroupItem>
-                          <ListGroupItem>100 emails</ListGroupItem>
+                          <ListGroupItem>Save on flights, hotels, cruises,</ListGroupItem>
+                          <ListGroupItem> vacation packages and more </ListGroupItem>
                           <ListGroupItem>24/7 Support</ListGroupItem>
                         </ListGroup>
                       </Row>
@@ -512,21 +486,21 @@ class LandingPage extends React.Component {
                       <img
                         alt="..."
                         className="img-center img-fluid"
-                        src={require("assets/img/etherum.png")}
+                        src={require("assets/img/air.jpg")}
                       />
                     </CardHeader>
                     <CardBody>
                       <Row>
                         <Col className="text-center" md="12">
-                          <h4 className="text-uppercase">Dark Coin</h4>
+                          <h4 className="text-uppercase">Dark </h4>
                           <span>Plan</span>
                           <hr className="line-success" />
                         </Col>
                       </Row>
                       <Row>
                         <ListGroup>
-                          <ListGroupItem>150 messages</ListGroupItem>
-                          <ListGroupItem>1000 emails</ListGroupItem>
+                          <ListGroupItem>Join for free  newsletters full</ListGroupItem>
+                          <ListGroupItem> of hot travel deals.</ListGroupItem>
                           <ListGroupItem>24/7 Support</ListGroupItem>
                         </ListGroup>
                       </Row>
@@ -544,21 +518,21 @@ class LandingPage extends React.Component {
                       <img
                         alt="..."
                         className="img-center img-fluid"
-                        src={require("assets/img/ripp.png")}
+                        src={require("assets/img/air.jpg")}
                       />
                     </CardHeader>
                     <CardBody>
                       <Row>
                         <Col className="text-center" md="12">
-                          <h4 className="text-uppercase">Bright Coin</h4>
+                          <h4 className="text-uppercase">Bright </h4>
                           <span>Plan</span>
                           <hr className="line-info" />
                         </Col>
                       </Row>
                       <Row>
                         <ListGroup>
-                          <ListGroupItem>350 messages</ListGroupItem>
-                          <ListGroupItem>10K emails</ListGroupItem>
+                          <ListGroupItem>Tips, news and entertainment </ListGroupItem>
+                          <ListGroupItem>experts to make your next trip even better.</ListGroupItem>
                           <ListGroupItem>24/7 Support</ListGroupItem>
                         </ListGroup>
                       </Row>

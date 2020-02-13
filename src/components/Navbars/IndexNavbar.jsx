@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* BLK Design System React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
@@ -34,6 +18,7 @@ import {
   Row,
   Col
 } from "reactstrap";
+import { Line } from "react-chartjs-2";
 
 class ComponentsNavbar extends React.Component {
   constructor(props) {
@@ -103,8 +88,8 @@ class ComponentsNavbar extends React.Component {
               title="Designed and Coded by Creative Tim"
               tag={Link}
             >
-              <span>BLK• </span>
-              Design System React
+              <span style={{fontSize:"26px", fontFamily:"cursive" , marginTop:"-30px", color:"rgb(225, 78, 202)"}}>BEST FLIGHT </span>
+              
             </NavbarBrand>
             <button
               aria-expanded={this.state.collapseOpen}
@@ -127,7 +112,7 @@ class ComponentsNavbar extends React.Component {
               <Row>
                 <Col className="collapse-brand" xs="6">
                   <a href="#pablo" onClick={e => e.preventDefault()}>
-                    BLK•React
+                    Best Flight
                   </a>
                 </Col>
                 <Col className="collapse-close text-right" xs="6">
@@ -196,20 +181,16 @@ class ComponentsNavbar extends React.Component {
                    fontFamily:"cursive",
                    textDecoration:"Underline",
                    color:"#e14eca"
-                 }}>Getting started</span> 
+                 }}>Get started</span> 
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-with-icons">
-                  <DropdownItem style={{color:"#e14eca", fontSize:"15px"}} tag={Link} to="/register-page">
-                    <i className="tim-icons icon-bullet-list-67" />
-                    Register Page
+                  <DropdownItem style={{color:"#e14eca", fontSize:"15px"}} tag={Link} to="/login-page">
+                    <i className="tim-icons icon-key-25" />
+                   Login Page
                   </DropdownItem>
                   <DropdownItem style={{color:"#e14eca", fontSize:"15px"}}  tag={Link} to="/landing-page">
-                    <i className="tim-icons icon-image-02" />
-                    Landing Page
-                  </DropdownItem>
-                  <DropdownItem style={{color:"#e14eca", fontSize:"15px"}}  tag={Link} to="/profile-page">
-                    <i className="tim-icons icon-single-02" />
-                    Profile Page
+                    <i className="tim-icons icon-notes" />
+                    About Us
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
@@ -217,9 +198,10 @@ class ComponentsNavbar extends React.Component {
                 <Button
                   className="nav-link d-none d-lg-block"
                   color="default"
-                  onClick={this.scrollToDownload}
                 >
-                  <i className="tim-icons icon-cloud-download-93" /> Download
+                  <Link to='/login-page' >
+                    <i className="tim-icons icon-key-25" /> Login
+                  </Link>
                 </Button>
               </NavItem>
             </Nav>

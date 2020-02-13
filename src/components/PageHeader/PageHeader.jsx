@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* BLK Design System React - v1.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2019 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
@@ -33,10 +16,9 @@ class PageHeader extends React.Component {
         <div className="squares square7" />
         <Container>
           <div className="content-center brand">
-            <h1 className="h1-seo">BLK• React</h1>
+            <h1 className="h1-seo">Best Flight</h1>
             <h3 className="d-none d-sm-block">
-              A beautiful Design System for Bootstrap 4 (reactstrap) and React.
-              It's Free and Open Source.
+            Listen to some typical public announcements made in an airport or airplane.
             </h3>
           </div>
         </Container>

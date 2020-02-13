@@ -19,7 +19,7 @@ import AdminLayout from "./deshbord/layouts/Admin/Admin";
 import "./deshbord/assets/scss/black-dashboard-react.scss";
 import "./deshbord/assets/demo/demo.css";
 import "./deshbord/assets/css/nucleo-icons.css";
-
+import './app.css'
 
 const App = ()=>{
   return(
@@ -27,20 +27,16 @@ const App = ()=>{
     <Switch>
       <Route path="/admin" render={props => <AdminLayout {...props} />} />
       
-      <Route path="/components" render={props => <Index {...props} />} />
+      <Route path="/home" render={props => <Index {...props} />} />
       <Route
         path="/landing-page"
         render={props => <LandingPage {...props} />}
       />
       <Route
-        path="/register-page"
+        path="/login-page"
         render={props => <RegisterPage {...props} />}
       />
-      <Route
-        path="/profile-page"
-        render={props => <ProfilePage {...props} />}
-      />
-      <Redirect from="/" to="/components" />
+      <Redirect from="/" to="/home" />
     </Switch>
   </BrowserRouter>
   )
