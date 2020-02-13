@@ -145,7 +145,7 @@ class ComponentsNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://twitter.com/CreativeTim"
+                  href="https://twitter.com"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Follow us on Twitter"
@@ -157,7 +157,7 @@ class ComponentsNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://www.facebook.com/CreativeTim"
+                  href="https://www.facebook.com"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Like us on Facebook"
@@ -169,7 +169,7 @@ class ComponentsNavbar extends React.Component {
               <NavItem className="p-0">
                 <NavLink
                   data-placement="bottom"
-                  href="https://www.instagram.com/CreativeTimOfficial"
+                  href="https://www.instagram.com"
                   rel="noopener noreferrer"
                   target="_blank"
                   title="Follow us on Instagram"
@@ -177,6 +177,9 @@ class ComponentsNavbar extends React.Component {
                   <i className="fab fa-instagram" />
                   <p className="d-lg-none d-xl-none">Instagram</p>
                 </NavLink>
+              </NavItem>
+              <NavItem>
+                
               </NavItem>
               <UncontrolledDropdown nav>
                 <DropdownToggle
@@ -188,22 +191,23 @@ class ComponentsNavbar extends React.Component {
                   onClick={e => e.preventDefault()}
                 >
                   <i className="fa fa-cogs d-lg-none d-xl-none" />
-                  Getting started
+                 <span style={{
+                   fontSize:"20px",
+                   fontFamily:"cursive",
+                   textDecoration:"Underline",
+                   color:"#e14eca"
+                 }}>Getting started</span> 
                 </DropdownToggle>
                 <DropdownMenu className="dropdown-with-icons">
-                  <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/tutorial">
-                    <i className="tim-icons icon-paper" />
-                    Documentation
-                  </DropdownItem>
-                  <DropdownItem tag={Link} to="/register-page">
+                  <DropdownItem style={{color:"#e14eca", fontSize:"15px"}} tag={Link} to="/register-page">
                     <i className="tim-icons icon-bullet-list-67" />
                     Register Page
                   </DropdownItem>
-                  <DropdownItem tag={Link} to="/landing-page">
+                  <DropdownItem style={{color:"#e14eca", fontSize:"15px"}}  tag={Link} to="/landing-page">
                     <i className="tim-icons icon-image-02" />
                     Landing Page
                   </DropdownItem>
-                  <DropdownItem tag={Link} to="/profile-page">
+                  <DropdownItem style={{color:"#e14eca", fontSize:"15px"}}  tag={Link} to="/profile-page">
                     <i className="tim-icons icon-single-02" />
                     Profile Page
                   </DropdownItem>
